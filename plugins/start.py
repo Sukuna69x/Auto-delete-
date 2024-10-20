@@ -115,8 +115,10 @@ async def start_command(client: Client, message: Message):
 async def not_joined(client: Client, message: Message):
     buttons = [
         [
-            InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ", url=client.invitelink),
-            InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ", url=client.invitelink2),
+            InlineKeyboardButton(text="⚡Join Channel ⚡", url="https://m.indiamart.com/proddetail/26099991430.html?utm_source=rottenf7933&utm_medium=affiliate&utm_campaign=1024&utm_content=15"),
+        ],
+        [
+            InlineKeyboardButton(text="⚡Join Channel ⚡", url=client.invitelink),
         ]
     ]
     try:
